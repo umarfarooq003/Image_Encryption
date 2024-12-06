@@ -10,12 +10,18 @@ This project is a simple implementation of AES (Advanced Encryption Standard) en
 # Running the Program
 
 1. Clone the repository or download the script file.
+```
 git clone <repository_url>
 cd <repository_directory>
+```
 2. Install the required libraries.
+```
 pip install pycryptodome pillow numpy
+```
 3. Run the script using Python.
+```
 python imageencryption.py
+```
 Program Menu
 When you run the script, you will see a menu with the following options:
 
@@ -33,10 +39,12 @@ When you run the script, you will see a menu with the following options:
 - The script reads the binary file (encrypted_image.bin) and reconstructs the original image:
 - Decrypted File: decrypted_image.jpg
   - `Output Image`
+  - 
   ![Profile](https://github.com/user-attachments/assets/3c5686eb-d1da-4395-9185-89f5f655f089)
 
 # File
 - `imageencryption.py`
+  
   ```python
   from Crypto.Cipher import AES
   from Crypto.Random import get_random_bytes
