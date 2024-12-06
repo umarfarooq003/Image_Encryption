@@ -43,8 +43,7 @@ When you run the script, you will see a menu with the following options:
   ![Profile](https://github.com/user-attachments/assets/3c5686eb-d1da-4395-9185-89f5f655f089)
 
 # File
-- `imageencryption.py`
-  
+- `imageencryption.py`  
   ```python
   from Crypto.Cipher import AES
   from Crypto.Random import get_random_bytes
