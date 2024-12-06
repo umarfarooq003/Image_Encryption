@@ -39,7 +39,7 @@ When you run the script, you will see a menu with the following options:
 - The script reads the binary file (encrypted_image.bin) and reconstructs the original image:
 - Decrypted File: decrypted_image.jpg
   - `Output Image`
-  - 
+    
   ![Profile](https://github.com/user-attachments/assets/3c5686eb-d1da-4395-9185-89f5f655f089)
 
 # File
